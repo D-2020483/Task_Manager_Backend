@@ -1,8 +1,6 @@
 //endpoints for login
-import express from 'express';
-import { loginUser , registerUser} from '../controller/authController.js';
-
-
+import express from "express";
+import { loginUser, registerUser } from "../controller/authController.js";
 
 const router = express.Router();
 
